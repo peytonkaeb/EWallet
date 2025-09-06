@@ -35,7 +35,7 @@ public class EWalletApp {
     private ArrayList<User> allData;
     private static ExpenseCalculator expenseCalculator = new ExpenseCalculator();
     private static User currUser = new User();
-    private static String dbURLembedded = "jdbc:derby:C:/Users/gorby/MyDB;create=true";
+    private static String dbURLembedded = "jdbc:derby:C:/Users/Kaeb/MyDB;create=true";
     private static String dbURL = "jdbc:derby://localhost:1527/myDB;create=true";
 
     private static String expenseTableName = "EXPENSE";
